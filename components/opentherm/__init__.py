@@ -51,4 +51,4 @@ async def to_code(config: Dict[str, Any]) -> None:
         generate.define_readers(const.INPUT_SENSOR, input_sensors)
         generate.add_messages(var, input_sensors, schema.INPUTS)
 
-    cg.add_library("Hevak/OpenTherm Library", "1.1.6")
+    cg.add_library("Hevak/OpenTherm Library", "1.1.6 pr")
